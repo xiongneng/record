@@ -8,10 +8,8 @@ https://juejin.cn/post/6844903778726985741
 - Excalidraw: 虚拟白板，用于素描手绘图
 https://zhuanlan.zhihu.com/p/146009375?from_voters_page=true
 
-
-
   
-## 发布负责同学必读！！！！
+## xx
 - 开发规约
 
 

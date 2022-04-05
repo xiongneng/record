@@ -13,6 +13,9 @@ https://juejin.cn/post/6844903778726985741
 - Excalidraw: 虚拟白板，用于素描手绘图
 https://zhuanlan.zhihu.com/p/146009375?from_voters_page=true
 
+- 面试总结
+http://dennisgo.cn/Articles/Layout/Centered.html
+
   
 ## 信息记录
 - 领域模型驱动设计
@@ -37,6 +40,7 @@ https://zhuanlan.zhihu.com/p/146009375?from_voters_page=true
 聚合封装了一系列的相关对象，它是这些对象的集合
 聚合应该有一个根，并且这个根是通过集合中的一个实体选出来的
 聚合外部的事物想引用聚合只能通过根的ID来访问
+聚合是数据修改和持久化的基本单元
 假如我们确确实实需要单独访问目前聚合根里面的实体呢？它可能会被单独提升为一个聚合根。而且通过ID之间的引用保持对原有聚合根之间的关联关系
 小的聚合
 聚合过于庞大，可以考虑将某个entity提升为聚合根供外界单独访问
